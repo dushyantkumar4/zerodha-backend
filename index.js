@@ -31,7 +31,7 @@ async function main(){
 app.use(
   cors({
     origin: ["http://localhost:5173",
-      "https://zerodha-kite-gi6hxdx5l-dushyant-s-projects-72a65b0b.vercel.app/"
+      "https://zerodha-kite-gi6hxdx5l-dushyant-s-projects-72a65b0b.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
